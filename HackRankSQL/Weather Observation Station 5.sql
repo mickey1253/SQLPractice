@@ -1,7 +1,7 @@
 /*
 https://www.hackerrank.com/challenges/weather-observation-station-5
 */
-
+-- Git Test for Mickey_Test
 select c, l from (
 select city c, length(city) l from station
 order by l, c asc)
